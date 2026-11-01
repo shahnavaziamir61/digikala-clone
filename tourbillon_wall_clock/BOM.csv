@@ -1,0 +1,49 @@
+category,id,part,qty,material,dimensions_or_spec,process_or_source,scad_module
+MADE,M-01,Main plate (skeletonised),1,Brass CW614N 5 mm / printed PETG,dia 296 x 5.0,CNC milled or SLA + brass inserts,plate_main
+MADE,M-02,Top bridge plate (skeletonised),1,Brass CW614N 5 mm / printed PETG,dia 296 x 5.0,CNC milled or SLA,plate_bridge
+MADE,M-03,Barrel drum,1,Brass,"dia 152 x 20.0, wall 2.5",CNC turned,barrel_drum
+MADE,M-04,Barrel gear (toothed ring),1,Brass,z=14 m=1.40 dia 19.6 x 3,Hobbed / laser cut + finished,barrel_gear
+MADE,M-05,Barrel cover,1,Brass,dia 148 x 1.5,CNC turned,barrel_cover
+MADE,M-06,Barrel arbor,1,Hardened silver steel,"dia 60 x 34, square 8",Turned + hardened + ground,barrel_arbor
+MADE,M-07,Centre wheel,1,Brass,z=48 m=0.75 dia 36.0 x 2,Hobbed / laser cut,wheel_centre
+MADE,M-08,Centre pinion,1,Hardened steel,z=10 m=0.60 dia 6.0 x 3 (cycloidal),Machined leaf pinion,pinion_centre
+MADE,M-09,Intermediate wheel,1,Brass,z=75 m=0.60 dia 45.0 x 2,Hobbed / laser cut,wheel_intermediate
+MADE,M-10,Intermediate pinion,1,Hardened steel,z=12 m=0.70 dia 8.4 x 7.5 (cycloidal),Machined leaf pinion,pinion_intermediate
+MADE,M-11,Carriage lower plate,1,Ti-6Al-4V,dia 62 x 1.6,Wire EDM / 5-axis milling,carriage_floor
+MADE,M-12,Carriage rim ring gear,1,Ti-6Al-4V or hardened steel,z=96 m=0.70 dia 67.2 x 5.5,Wire EDM + lapped teeth (or hobbed),carriage_rim_gear
+MADE,M-13,Carriage column,3,Ti-6Al-4V / M2 brass pillar,dia 4.0 x 11.4,"Turned, or M2 threaded pillar",carriage_column
+MADE,M-14,Carriage upper bridge,1,Ti-6Al-4V,40 x 5.0 x 1.6 (2 arms),Wire EDM,carriage_bridge
+MADE,M-15,Fixed fourth wheel,1,Brass,z=40 m=0.45 dia 18.0 x 2,"Hobbed, teeth lapped; bolted to the main plate",wheel_fixed_fourth
+MADE,M-16,Escape wheel,1,Hardened steel 1.4034,"15-tooth club, dia 20.0 x 1.2",Wire EDM -> harden -> lap impulse faces,escape_wheel
+MADE,M-17,Escape pinion,1,Hardened steel,z=10 m=0.45 dia 4.5 x 2.5,"Turned + hobbed, pressed on the escape arbor",escape_pinion
+MADE,M-18,Pallet lever,1,Steel + 2 ruby stones,12 x 5.0 x 1.4,Wire EDM; stones cemented with shellac and lapped,pallet_lever
+MADE,M-19,Balance wheel,1,Brass rim / Glucydur,"dia 28.0, rim 3.0 x 2.0","Turned, then poised on a poising tool",balance_wheel
+MADE,M-20,Impulse roller + pin,1,Hardened steel + ruby,"roller dia 8.0, pin dia 1.6",Turned; pin is a ruby or hardened steel dowel,balance_roller
+MADE,M-21,Hairspring regulator index,1,Brass + steel,arc 30 x 4 x 1.5,Wire EDM,regulator
+MADE,M-22,Ratchet wheel + click + click spring,1,Hardened steel,ratchet z=24 m=1.5 dia 36.0,Laser cut + hardened,ratchet_click
+MADE,M-23,Dial ring (chapter ring + seconds track),1,Printed PETG / aluminium,"dia 300, window dia 82",FDM / laser + printed numerals,dial_ring
+MADE,M-24,Hour hand,1,"Brass, blued",110 x 8 x 0.8,Laser cut + formed,hand_hour
+MADE,M-25,Minute hand,1,"Brass, blued",150 x 6 x 0.8,Laser cut + formed,hand_minute
+MADE,M-26,Seconds pointer (on the carriage),1,Blued steel,34 x 2 x 0.4,Laser cut,hand_seconds
+MADE,M-27,"Case bezel, front",1,Printed PETG / turned wood,dia 300 x 12,FDM in 4 segments or turned,bezel_front
+MADE,M-28,Case back + wall mount plate,1,Printed PETG,dia 300 x 8,FDM,case_back
+MADE,M-29,Pillar / spacing sleeve,6,Brass M2,dia 4 x 24.5,Turned or M2 threaded pillar,pillar
+MADE,M-30,Wall mounting bracket,1,Steel / printed PETG,120 x 60 x 6,Laser cut + folded,wall_mount
+PURCHASED,B-01,Mainspring,1,Carbon spring steel or Nivaflex,"b=18.0 t=0.42 L~1029 mm, 3.2 turns","Clock-spring supplier; order to the calculated length, NOT off the shelf",-
+PURCHASED,B-02,Hairspring (balance spring),1,Nivarox / blued carbon steel,"b=1.80 t=0.06 L_active ~246 mm, OD 26 mm, k=2.633e-02 N-mm/rad","CANNOT BE PRINTED. Order from a hairspring maker or adapt a large marine-chronometer / regulator spring; must be matched to the measured balance inertia, not to the CAD value",-
+PURCHASED,B-03,Ruby hole jewels,14,Synthetic corundum,ID 1.2 / 1.5 / 1.6 / 3.0 / 4.0 / 6.0 / 10.0 mm,Watch-material supplier,-
+PURCHASED,B-04,Ruby / sapphire endstones,4,Synthetic corundum,dia 3.0 x 0.6,Balance staff and carriage axis,-
+PURCHASED,B-05,Miniature ball bearing MR106ZZ,1,Chrome steel,6 x 10 x 3 mm,Carriage lower pivot (low-friction alternative to a jewel),-
+PURCHASED,B-06,Miniature ball bearing MR85ZZ,2,Chrome steel,5 x 8 x 2.5 mm,"Barrel arbor, if jewels are not used",-
+PURCHASED,B-07,Ruby pallet stones (lever jewels),2,Synthetic ruby,"2.6 x 1.6 x 1.2, entry + exit",Watch-material supplier; must be lapped to angle,-
+PURCHASED,B-08,Hardened steel rod stock,1,1.4034 / silver steel,dia 1.2 / 1.5 / 3.0 / 4.0 / 6.0 / 10.0 mm,Arbor stock,-
+PURCHASED,B-09,Brass sheet + rod,1,CW614N,"sheet 5 mm, rod dia 30 / 120",Plate and wheel stock,-
+PURCHASED,B-10,Titanium plate,1,Ti-6Al-4V,"3 mm sheet, 100 x 100",Carriage stock,-
+PURCHASED,B-11,M2 x 6 countersunk screws,32,Stainless A2,DIN 965,Plate / bridge / pillar fixing,-
+PURCHASED,B-12,M2 threaded pillars,9,Brass,8 / 12 / 17.5 / 24.5 mm,Carriage columns and plate spacing,-
+PURCHASED,B-13,"Winding key, square 8 mm",1,Steel,Breguet key,Or print the handle and fit an 8 mm square steel socket,-
+PURCHASED,B-14,Watch oil + grease,1,Moebius 9010 / 9415 / 9504,-,"9010 fast light pivots, 9415 pallet stones, 9504 barrel and going train",-
+PURCHASED,B-15,Loctite 222 + shellac,1,-,-,"Pallet stones, hairspring stud, canon pinion",-
+PURCHASED,B-16,Acrylic / sapphire crystal,1,-,dia 290 x 2,Front glazing (optional),-
+PURCHASED,B-17,Tungsten or brass poising screws,4,-,M1.4 x 2,Carriage poising counter-mass,-
+PURCHASED,B-18,Timegrapher / optical tachometer,1,-,-,Required to verify the 1 Hz beat and the 1 rpm carriage -- the CAD model cannot prove this,-
