@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="860" viewBox="0 0 1240 860">
+<title>Tourbillon wall clock -- arbor layout and Z section</title>
+<style>
+    .thin  { fill:none; stroke:#1a1a1a; stroke-width:0.5; }
+    .med   { fill:none; stroke:#1a1a1a; stroke-width:1.1; }
+    .pitch { fill:none; stroke:#0b62c4; stroke-width:0.55; stroke-dasharray:7 2.5 1.2 2.5; }
+    .tip   { fill:none; stroke:#c0392b; stroke-width:0.45; }
+    .root  { fill:none; stroke:#8a8a8a; stroke-width:0.35; stroke-dasharray:3 2; }
+    .axis  { fill:none; stroke:#111; stroke-width:0.4; stroke-dasharray:11 2.5 2 2.5; }
+    .ext   { fill:none; stroke:#666; stroke-width:0.3; }
+    .dim   { fill:none; stroke:#0b62c4; stroke-width:0.45; }
+    .fill  { fill:#0b62c4; stroke:none; }
+    .hatch { fill:none; stroke:#b0b0b0; stroke-width:0.3; }
+    .lbl   { font:9.5px 'DejaVu Sans',Arial,sans-serif; fill:#111; }
+    .ttl   { font:bold 15px 'DejaVu Sans',Arial,sans-serif; fill:#111; }
+    .sub   { font:10.5px 'DejaVu Sans',Arial,sans-serif; fill:#444; }
+    .dimlbl{ font:9px 'DejaVu Sans',Arial,sans-serif; fill:#0b62c4; }
+    .note  { font:9px 'DejaVu Sans',Arial,sans-serif; fill:#666; }
+    .hdr   { font:bold 11px 'DejaVu Sans',Arial,sans-serif; fill:#111; }
+</style>
+<rect x="0" y="0" width="1240" height="860" fill="#fff"/>
+<rect x="8.000" y="8.000" width="1224.000" height="844.000" class="med"/>
+<line x1="8.000" y1="46.000" x2="1232.000" y2="46.000" class="med"/>
+<text x="20.000" y="30.000" class="ttl" text-anchor="start">ARBOR LAYOUT AND Z SECTION THROUGH THE MOVEMENT</text>
+<text x="20.000" y="42.000" class="sub" text-anchor="start">Viewed from the side.  Z is vertical and to scale; the arbors are drawn at their true Z bands but their X positions are separated for legibility, so this is NOT a true projection of one section plane.  Diameters and spans are true, from docs/SHAFTS.md.</text>
+<text x="1220.000" y="30.000" class="hdr" text-anchor="end">SHEET 2 of 2</text>
+<text x="1220.000" y="42.000" class="note" text-anchor="end">Z to scale</text>
+<line x1="8.000" y1="798.000" x2="1232.000" y2="798.000" class="med"/>
+<line x1="70.000" y1="762.000" x2="70.000" y2="106.000" class="axis"/>
+<line x1="62.000" y1="752.162" x2="78.000" y2="752.162" class="thin"/>
+<text x="56.000" y="755.162" class="note" text-anchor="end">-19</text>
+<line x1="62.000" y1="693.784" x2="78.000" y2="693.784" class="thin"/>
+<text x="56.000" y="696.784" class="note" text-anchor="end">-14</text>
+<line x1="62.000" y1="635.405" x2="78.000" y2="635.405" class="thin"/>
+<text x="56.000" y="638.405" class="note" text-anchor="end">-9</text>
+<line x1="62.000" y1="577.027" x2="78.000" y2="577.027" class="thin"/>
+<text x="56.000" y="580.027" class="note" text-anchor="end">-4</text>
+<line x1="62.000" y1="518.649" x2="78.000" y2="518.649" class="thin"/>
+<text x="56.000" y="521.649" class="note" text-anchor="end">+1</text>
+<line x1="62.000" y1="460.270" x2="78.000" y2="460.270" class="thin"/>
+<text x="56.000" y="463.270" class="note" text-anchor="end">+6</text>
+<line x1="62.000" y1="401.892" x2="78.000" y2="401.892" class="thin"/>
+<text x="56.000" y="404.892" class="note" text-anchor="end">+11</text>
+<line x1="62.000" y1="343.514" x2="78.000" y2="343.514" class="thin"/>
+<text x="56.000" y="346.514" class="note" text-anchor="end">+16</text>
+<line x1="62.000" y1="285.135" x2="78.000" y2="285.135" class="thin"/>
+<text x="56.000" y="288.135" class="note" text-anchor="end">+21</text>
+<line x1="62.000" y1="226.757" x2="78.000" y2="226.757" class="thin"/>
+<text x="56.000" y="229.757" class="note" text-anchor="end">+26</text>
+<line x1="62.000" y1="168.378" x2="78.000" y2="168.378" class="thin"/>
+<text x="56.000" y="171.378" class="note" text-anchor="end">+31</text>
+<line x1="62.000" y1="110.000" x2="78.000" y2="110.000" class="thin"/>
+<text x="56.000" y="113.000" class="note" text-anchor="end">+36</text>
+<text x="30.000" y="434.000" class="hdr" text-anchor="middle" transform="rotate(-90.00 30.000 434.000)">Z  (mm)</text>
+<rect x="78.000" y="530.324" width="1080.000" height="58.378" class="hatch"/>
+<text x="90.000" y="526.324" class="hdr" text-anchor="start">MAIN PLATE   Z -5.0 .. +0.0   dia 296.0</text>
+<rect x="78.000" y="238.432" width="1080.000" height="58.378" class="hatch"/>
+<text x="90.000" y="234.432" class="hdr" text-anchor="start">TOP BRIDGE (SKELETON)   Z +20.0 .. +25.0   dia 296.0</text>
+<text x="90.000" y="128.000" class="hdr" text-anchor="start">Z STACK, EVERY MEMBER</text>
+<rect x="92.000" y="740.486" width="150.000" height="17.514" class="thin"/>
+<text x="250.000" y="752.243" class="note" text-anchor="start">barrel cover               Z  -19.5 ..  -18.0   (1.5 thick)   dia 148.00</text>
+<rect x="92.000" y="512.811" width="154.054" height="227.676" class="thin"/>
+<text x="254.054" y="629.649" class="note" text-anchor="start">barrel drum                Z  -18.0 ..   +1.5   (19.5 thick)   dia 152.00</text>
+<rect x="92.000" y="489.459" width="19.155" height="23.351" class="thin"/>
+<text x="119.155" y="504.135" class="note" text-anchor="start">fixed fourth wheel         Z   +1.5 ..   +3.5   (2.0 thick)   dia 18.90</text>
+<rect x="92.000" y="483.622" width="22.703" height="23.351" class="thin"/>
+<text x="122.703" y="498.297" class="note" text-anchor="start">barrel gear                Z   +2.0 ..   +4.0   (2.0 thick)   dia 22.40</text>
+<rect x="92.000" y="483.622" width="81.993" height="23.351" class="thin"/>
+<text x="181.993" y="498.297" class="note" text-anchor="start">great wheel                Z   +2.0 ..   +4.0   (2.0 thick)   dia 80.90</text>
+<rect x="92.000" y="436.919" width="69.527" height="18.681" class="thin"/>
+<text x="169.527" y="449.259" class="note" text-anchor="start">carriage rim gear          Z   +6.4 ..   +8.0   (1.6 thick)   dia 68.60</text>
+<rect x="92.000" y="429.914" width="7.601" height="77.059" class="thin"/>
+<text x="107.601" y="471.443" class="note" text-anchor="start">great pinion               Z   +2.0 ..   +8.6   (6.6 thick)   dia 7.50</text>
+<rect x="92.000" y="436.919" width="9.932" height="46.703" class="thin"/>
+<text x="109.932" y="463.270" class="note" text-anchor="start">intermediate pinion        Z   +4.0 ..   +8.0   (4.0 thick)   dia 9.80</text>
+<rect x="92.000" y="460.270" width="46.824" height="23.351" class="thin"/>
+<text x="146.824" y="474.946" class="note" text-anchor="start">intermediate wheel         Z   +4.0 ..   +6.0   (2.0 thick)   dia 46.20</text>
+<rect x="92.000" y="419.405" width="7.297" height="64.216" class="thin"/>
+<text x="107.297" y="454.514" class="note" text-anchor="start">centre pinion              Z   +4.0 ..   +9.5   (5.5 thick)   dia 7.20</text>
+<rect x="92.000" y="429.914" width="38.007" height="23.351" class="thin"/>
+<text x="138.007" y="444.589" class="note" text-anchor="start">centre wheel               Z   +6.6 ..   +8.6   (2.0 thick)   dia 37.50</text>
+<rect x="92.000" y="390.216" width="39.527" height="35.027" class="thin"/>
+<text x="139.527" y="410.730" class="note" text-anchor="start">ratchet + click            Z   +9.0 ..  +12.0   (3.0 thick)   dia 39.00</text>
+<rect x="92.000" y="390.216" width="13.135" height="23.351" class="thin"/>
+<text x="113.135" y="404.892" class="note" text-anchor="start">canon pinion               Z  +10.0 ..  +12.0   (2.0 thick)   dia 12.96</text>
+<rect x="92.000" y="390.216" width="48.162" height="23.351" class="thin"/>
+<text x="148.162" y="404.892" class="note" text-anchor="start">minute wheel               Z  +10.0 ..  +12.0   (2.0 thick)   dia 47.52</text>
+<rect x="92.000" y="366.865" width="16.419" height="23.351" class="thin"/>
+<text x="116.419" y="381.541" class="note" text-anchor="start">minute pinion              Z  +12.0 ..  +14.0   (2.0 thick)   dia 16.20</text>
+<rect x="92.000" y="366.865" width="45.608" height="23.351" class="thin"/>
+<text x="145.608" y="381.541" class="note" text-anchor="start">hour wheel                 Z  +12.0 ..  +14.0   (2.0 thick)   dia 45.00</text>
+<rect x="92.000" y="191.730" width="9.122" height="175.135" class="thin"/>
+<text x="109.122" y="282.297" class="note" text-anchor="start">hour pipe                  Z  +14.0 ..  +29.0   (15.0 thick)   dia 9.00</text>
+<rect x="92.000" y="180.054" width="6.081" height="210.162" class="thin"/>
+<text x="106.081" y="288.135" class="note" text-anchor="start">minute pipe                Z  +12.0 ..  +30.0   (18.0 thick)   dia 6.00</text>
+<rect x="92.000" y="203.405" width="304.054" height="23.351" class="thin"/>
+<text x="404.054" y="218.081" class="note" text-anchor="start">dial ring                  Z  +26.0 ..  +28.0   (2.0 thick)   dia 300.00</text>
+<rect x="92.000" y="162.541" width="304.054" height="35.027" class="thin"/>
+<text x="404.054" y="183.054" class="note" text-anchor="start">hands                      Z  +28.5 ..  +31.5   (3.0 thick)   dia 300.00</text>
+<rect x="92.000" y="110.000" width="304.054" height="46.703" class="thin"/>
+<text x="404.054" y="136.351" class="note" text-anchor="start">crystal / bezel            Z  +32.0 ..  +36.0   (4.0 thick)   dia 300.00</text>
+<text x="700.000" y="92.000" class="hdr" text-anchor="start">ARBORS  (carriage-local members drawn at their global Z)</text>
+<line x1="700.000" y1="761.000" x2="700.000" y2="387.216" class="axis"/>
+<rect x="680.297" y="390.216" width="39.405" height="367.784" class="med"/>
+<rect x="693.432" y="390.216" width="13.135" height="6.000" class="thin"/>
+<rect x="693.432" y="752.000" width="13.135" height="6.000" class="thin"/>
+<text x="700.000" y="380.216" class="hdr" text-anchor="middle">S-01</text>
+<text x="700.000" y="368.216" class="note" text-anchor="middle" transform="rotate(-90.00 700.000 368.216)">barrel-arbor</text>
+<text x="700.000" y="772.000" class="note" text-anchor="middle">dia 30.00</text>
+<text x="700.000" y="784.000" class="note" text-anchor="middle">len 44.0</text>
+<text x="700.000" y="796.000" class="note" text-anchor="middle">pivot 10.00</text>
+<line x1="752.000" y1="486.622" x2="752.000" y2="177.054" class="axis"/>
+<rect x="749.373" y="180.054" width="5.254" height="303.568" class="med"/>
+<rect x="751.015" y="180.054" width="1.970" height="6.000" class="thin"/>
+<rect x="751.015" y="477.622" width="1.970" height="6.000" class="thin"/>
+<text x="752.000" y="170.054" class="hdr" text-anchor="middle">S-02</text>
+<text x="752.000" y="158.054" class="note" text-anchor="middle" transform="rotate(-90.00 752.000 158.054)">centre-arbor</text>
+<text x="752.000" y="497.622" class="note" text-anchor="middle">dia 4.00</text>
+<text x="752.000" y="509.622" class="note" text-anchor="middle">len 42.0</text>
+<text x="752.000" y="521.622" class="note" text-anchor="middle">pivot 1.50</text>
+<line x1="804.000" y1="509.973" x2="804.000" y2="363.865" class="axis"/>
+<rect x="802.030" y="366.865" width="3.941" height="140.108" class="med"/>
+<rect x="803.200" y="366.865" width="1.600" height="6.000" class="thin"/>
+<rect x="803.200" y="500.973" width="1.600" height="6.000" class="thin"/>
+<text x="804.000" y="356.865" class="hdr" text-anchor="middle">S-03</text>
+<text x="804.000" y="344.865" class="note" text-anchor="middle" transform="rotate(-90.00 804.000 344.865)">great-wheel-arbor</text>
+<text x="804.000" y="520.973" class="note" text-anchor="middle">dia 3.00</text>
+<text x="804.000" y="532.973" class="note" text-anchor="middle">len 12.0</text>
+<text x="804.000" y="544.973" class="note" text-anchor="middle">pivot 1.20</text>
+<line x1="856.000" y1="486.622" x2="856.000" y2="247.108" class="axis"/>
+<rect x="854.030" y="250.108" width="3.941" height="233.514" class="med"/>
+<rect x="855.200" y="250.108" width="1.600" height="6.000" class="thin"/>
+<rect x="855.200" y="477.622" width="1.600" height="6.000" class="thin"/>
+<text x="856.000" y="240.108" class="hdr" text-anchor="middle">S-04</text>
+<text x="856.000" y="228.108" class="note" text-anchor="middle" transform="rotate(-90.00 856.000 228.108)">intermediate-arbor</text>
+<text x="856.000" y="497.622" class="note" text-anchor="middle">dia 3.00</text>
+<text x="856.000" y="509.622" class="note" text-anchor="middle">len 20.0</text>
+<text x="856.000" y="521.622" class="note" text-anchor="middle">pivot 1.20</text>
+<line x1="908.000" y1="458.600" x2="908.000" y2="149.032" class="axis"/>
+<rect x="902.746" y="152.032" width="10.508" height="303.568" class="med"/>
+<rect x="906.030" y="152.032" width="3.941" height="6.000" class="thin"/>
+<rect x="906.030" y="449.600" width="3.941" height="6.000" class="thin"/>
+<text x="908.000" y="142.032" class="hdr" text-anchor="middle">S-05</text>
+<text x="908.000" y="130.032" class="note" text-anchor="middle" transform="rotate(-90.00 908.000 130.032)">carriage-axis</text>
+<text x="908.000" y="469.600" class="note" text-anchor="middle">dia 8.00</text>
+<text x="908.000" y="481.600" class="note" text-anchor="middle">len 26.0</text>
+<text x="908.000" y="493.600" class="note" text-anchor="middle">pivot 3.00</text>
+<line x1="960.000" y1="516.978" x2="960.000" y2="312.492" class="axis"/>
+<rect x="958.500" y="315.492" width="3.000" height="198.486" class="med"/>
+<rect x="959.200" y="315.492" width="1.600" height="6.000" class="thin"/>
+<rect x="959.200" y="507.978" width="1.600" height="6.000" class="thin"/>
+<text x="960.000" y="305.492" class="hdr" text-anchor="middle">S-06</text>
+<text x="960.000" y="293.492" class="note" text-anchor="middle" transform="rotate(-90.00 960.000 293.492)">escape-arbor</text>
+<text x="960.000" y="527.978" class="note" text-anchor="middle">dia 1.50</text>
+<text x="960.000" y="539.978" class="note" text-anchor="middle">len 17.0</text>
+<text x="960.000" y="551.978" class="note" text-anchor="middle">pivot 0.50</text>
+<line x1="1012.000" y1="432.914" x2="1012.000" y2="275.130" class="axis"/>
+<rect x="1010.500" y="278.130" width="3.000" height="151.784" class="med"/>
+<rect x="1011.200" y="278.130" width="1.600" height="6.000" class="thin"/>
+<rect x="1011.200" y="423.914" width="1.600" height="6.000" class="thin"/>
+<text x="1012.000" y="268.130" class="hdr" text-anchor="middle">S-07</text>
+<text x="1012.000" y="256.130" class="note" text-anchor="middle" transform="rotate(-90.00 1012.000 256.130)">pallet-arbor</text>
+<text x="1012.000" y="443.914" class="note" text-anchor="middle">dia 1.20</text>
+<text x="1012.000" y="455.914" class="note" text-anchor="middle">len 13.0</text>
+<text x="1012.000" y="467.914" class="note" text-anchor="middle">pivot 0.40</text>
+<line x1="1064.000" y1="402.557" x2="1064.000" y2="163.043" class="axis"/>
+<rect x="1062.500" y="166.043" width="3.000" height="233.514" class="med"/>
+<rect x="1063.200" y="166.043" width="1.600" height="6.000" class="thin"/>
+<rect x="1063.200" y="393.557" width="1.600" height="6.000" class="thin"/>
+<text x="1064.000" y="156.043" class="hdr" text-anchor="middle">S-08</text>
+<text x="1064.000" y="144.043" class="note" text-anchor="middle" transform="rotate(-90.00 1064.000 144.043)">balance-staff</text>
+<text x="1064.000" y="413.557" class="note" text-anchor="middle">dia 1.60</text>
+<text x="1064.000" y="425.557" class="note" text-anchor="middle">len 20.0</text>
+<text x="1064.000" y="437.557" class="note" text-anchor="middle">pivot 0.35</text>
+<line x1="1116.000" y1="416.568" x2="1116.000" y2="305.486" class="axis"/>
+<rect x="1114.030" y="308.486" width="3.941" height="105.081" class="med"/>
+<text x="1116.000" y="298.486" class="hdr" text-anchor="middle">S-09</text>
+<text x="1116.000" y="286.486" class="note" text-anchor="middle" transform="rotate(-90.00 1116.000 286.486)">motion-works-stud</text>
+<text x="1116.000" y="427.568" class="note" text-anchor="middle">dia 3.00</text>
+<text x="1116.000" y="439.568" class="note" text-anchor="middle">len 9.0</text>
+<text x="1116.000" y="451.568" class="note" text-anchor="middle">fixed stud</text>
+<line x1="908.000" y1="455.600" x2="718.000" y2="455.600" class="ext"/>
+<line x1="908.000" y1="152.032" x2="718.000" y2="152.032" class="ext"/>
+<line x1="718.000" y1="455.600" x2="718.000" y2="152.032" class="dim"/>
+<polygon points="718.000,455.600 715.400,448.600 720.600,448.600" class="fill"/>
+<polygon points="718.000,152.032 715.400,159.032 720.600,159.032" class="fill"/>
+<text x="723.000" y="302.316" class="dimlbl" text-anchor="middle">S-05 carriage axis: length 26.0, span 18.0, axial play 0.04, radial clearance &lt;= 0.015</text>
+<text x="90.000" y="780.000" class="hdr" text-anchor="start">CARRIAGE-LOCAL Z STACK  (origin at the carriage floor, global Z0 = +6.4)</text>
+<text x="90.000" y="793.000" class="note" text-anchor="start">escape pinion teeth      local   -5.0 ..   -2.6   global   +1.4 ..   +3.8   dia 5.40</text>
+<text x="90.000" y="804.000" class="note" text-anchor="start">escape arbor             local   -5.0 ..   +3.2   global   +1.4 ..   +9.6   dia 1.50</text>
+<text x="90.000" y="815.000" class="note" text-anchor="start">carriage lower plate     local   +0.0 ..   +1.6   global   +6.4 ..   +8.0   dia 62.00</text>
+<text x="90.000" y="826.000" class="note" text-anchor="start">escape wheel             local   +2.0 ..   +3.2   global   +8.4 ..   +9.6   dia 20.00</text>
+<text x="90.000" y="837.000" class="note" text-anchor="start">pallet lever + stones    local   +2.2 ..   +4.2   global   +8.6 ..  +10.6   dia 24.00</text>
+<text x="90.000" y="848.000" class="note" text-anchor="start">roller + impulse pin     local   +2.8 ..   +4.4   global   +9.2 ..  +10.8   dia 8.00</text>
+<text x="90.000" y="859.000" class="note" text-anchor="start">balance wheel            local   +4.8 ..   +6.8   global  +11.2 ..  +13.2   dia 28.00</text>
+<text x="90.000" y="870.000" class="note" text-anchor="start">hairspring               local   +7.1 ..   +8.0   global  +13.5 ..  +14.4   dia 26.00</text>
+<text x="90.000" y="881.000" class="note" text-anchor="start">carriage upper bridge    local   +8.4 ..  +10.0   global  +14.8 ..  +16.4   dia 40.00</text>
+<text x="90.000" y="892.000" class="note" text-anchor="start">balance endstone         local  +10.0 ..  +10.8   global  +16.4 ..  +17.2   dia 6.00</text>
+<text x="90.000" y="903.000" class="note" text-anchor="start">carriage top cap         local  +10.8 ..  +12.2   global  +17.2 ..  +18.6   dia 20.00</text>
+<text x="90.000" y="914.000" class="note" text-anchor="start">seconds pointer          local  +12.2 ..  +13.0   global  +18.6 ..  +19.4   dia 62.00</text>
+<text x="20.000" y="814.000" class="sub" text-anchor="start">PROJECT   tourbillon wall clock, 300 mm dial, visible one-minute flying tourbillon</text>
+<text x="20.000" y="830.000" class="note" text-anchor="start">MOVEMENT Z MIN   -19.5</text>
+<text x="320.000" y="830.000" class="note" text-anchor="start">MOVEMENT THICKNESS   55.5</text>
+<text x="620.000" y="830.000" class="note" text-anchor="start">CARRIAGE HEIGHT   18.00 (target 12-20)</text>
+<text x="20.000" y="843.000" class="note" text-anchor="start">SMALLEST ARBOR   1.20 mm (S-07, C-33)</text>
+<text x="320.000" y="843.000" class="note" text-anchor="start">FINEST CLEARANCE   0.015 mm radial (S-05)</text>
+<text x="620.000" y="843.000" class="note" text-anchor="start">BEARINGS   jewel / bush / ball race -- never a printed hole</text>
+<text x="20.000" y="856.000" class="note" text-anchor="start">SOURCE   docs/SHAFTS.md + Z_MOVEMENT / Z_CARRIAGE</text>
+<text x="320.000" y="856.000" class="note" text-anchor="start">GENERATED BY   tools/gen_drawings.py</text>
+<text x="620.000" y="856.000" class="note" text-anchor="start">STATUS   dimensions true; X spacing for legibility only</text>
+</svg>

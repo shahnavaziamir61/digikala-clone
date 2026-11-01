@@ -1,0 +1,5 @@
+# Python bytecode is a build artifact, and a stale one is actively dangerous:
+# during this project a cached .pyc hid a bug in tools/gen_stl.py for several
+# runs, so it must never be committed.
+__pycache__/
+*.py[cod]

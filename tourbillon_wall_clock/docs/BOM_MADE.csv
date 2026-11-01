@@ -1,0 +1,31 @@
+id,part,qty,material,dimensions_mm,process,scad_module
+M-01,Main plate (skeletonised),1,Brass CW614N 5 mm / printed PETG,dia 296 x 5.0,CNC milled or SLA + brass inserts,plate_main
+M-02,Top bridge plate (skeletonised),1,Brass CW614N 5 mm / printed PETG,dia 296 x 5.0,CNC milled or SLA,plate_bridge
+M-03,Barrel drum,1,Brass,"dia 152 x 20.0, wall 2.5",CNC turned,barrel_drum
+M-04,Barrel gear (toothed ring),1,Brass,z=14 m=1.40 dia 19.6 x 3,Hobbed / laser cut + finished,barrel_gear
+M-05,Barrel cover,1,Brass,dia 148 x 1.5,CNC turned,barrel_cover
+M-06,Barrel arbor,1,Hardened silver steel,"dia 60 x 34, square 8",Turned + hardened + ground,barrel_arbor
+M-07,Centre wheel,1,Brass,z=48 m=0.75 dia 36.0 x 2,Hobbed / laser cut,wheel_centre
+M-08,Centre pinion,1,Hardened steel,z=10 m=0.60 dia 6.0 x 3 (cycloidal),Machined leaf pinion,pinion_centre
+M-09,Intermediate wheel,1,Brass,z=75 m=0.60 dia 45.0 x 2,Hobbed / laser cut,wheel_intermediate
+M-10,Intermediate pinion,1,Hardened steel,z=12 m=0.70 dia 8.4 x 7.5 (cycloidal),Machined leaf pinion,pinion_intermediate
+M-11,Carriage lower plate,1,Ti-6Al-4V,dia 62 x 1.6,Wire EDM / 5-axis milling,carriage_floor
+M-12,Carriage rim ring gear,1,Ti-6Al-4V or hardened steel,z=96 m=0.70 dia 67.2 x 5.5,Wire EDM + lapped teeth (or hobbed),carriage_rim_gear
+M-13,Carriage column,3,Ti-6Al-4V / M2 brass pillar,dia 4.0 x 11.4,"Turned, or M2 threaded pillar",carriage_column
+M-14,Carriage upper bridge,1,Ti-6Al-4V,40 x 5.0 x 1.6 (2 arms),Wire EDM,carriage_bridge
+M-15,Fixed fourth wheel,1,Brass,z=40 m=0.45 dia 18.0 x 2,"Hobbed, teeth lapped; bolted to the main plate",wheel_fixed_fourth
+M-16,Escape wheel,1,Hardened steel 1.4034,"15-tooth club, dia 20.0 x 1.2",Wire EDM -> harden -> lap impulse faces,escape_wheel
+M-17,Escape pinion,1,Hardened steel,z=10 m=0.45 dia 4.5 x 2.5,"Turned + hobbed, pressed on the escape arbor",escape_pinion
+M-18,Pallet lever,1,Steel + 2 ruby stones,12 x 5.0 x 1.4,Wire EDM; stones cemented with shellac and lapped,pallet_lever
+M-19,Balance wheel,1,Brass rim / Glucydur,"dia 28.0, rim 3.0 x 2.0","Turned, then poised on a poising tool",balance_wheel
+M-20,Impulse roller + pin,1,Hardened steel + ruby,"roller dia 8.0, pin dia 1.6",Turned; pin is a ruby or hardened steel dowel,balance_roller
+M-21,Hairspring regulator index,1,Brass + steel,arc 30 x 4 x 1.5,Wire EDM,regulator
+M-22,Ratchet wheel + click + click spring,1,Hardened steel,ratchet z=24 m=1.5 dia 36.0,Laser cut + hardened,ratchet_click
+M-23,Dial ring (chapter ring + seconds track),1,Printed PETG / aluminium,"dia 300, window dia 82",FDM / laser + printed numerals,dial_ring
+M-24,Hour hand,1,"Brass, blued",110 x 8 x 0.8,Laser cut + formed,hand_hour
+M-25,Minute hand,1,"Brass, blued",150 x 6 x 0.8,Laser cut + formed,hand_minute
+M-26,Seconds pointer (on the carriage),1,Blued steel,34 x 2 x 0.4,Laser cut,hand_seconds
+M-27,"Case bezel, front",1,Printed PETG / turned wood,dia 300 x 12,FDM in 4 segments or turned,bezel_front
+M-28,Case back + wall mount plate,1,Printed PETG,dia 300 x 8,FDM,case_back
+M-29,Pillar / spacing sleeve,6,Brass M2,dia 4 x 24.5,Turned or M2 threaded pillar,pillar
+M-30,Wall mounting bracket,1,Steel / printed PETG,120 x 60 x 6,Laser cut + folded,wall_mount

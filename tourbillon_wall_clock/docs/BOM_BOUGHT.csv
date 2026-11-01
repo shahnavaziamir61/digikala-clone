@@ -1,0 +1,19 @@
+id,part,qty,material,specification,source_note
+B-01,Mainspring,1,Carbon spring steel or Nivaflex,"b=18.0 t=0.42 L~1029 mm, 3.2 turns","Clock-spring supplier; order to the calculated length, NOT off the shelf"
+B-02,Hairspring (balance spring),1,Nivarox / blued carbon steel,"b=1.80 t=0.06 L_active ~246 mm, OD 26 mm, k=2.633e-02 N-mm/rad","CANNOT BE PRINTED. Order from a hairspring maker or adapt a large marine-chronometer / regulator spring; must be matched to the measured balance inertia, not to the CAD value"
+B-03,Ruby hole jewels,14,Synthetic corundum,ID 1.2 / 1.5 / 1.6 / 3.0 / 4.0 / 6.0 / 10.0 mm,Watch-material supplier
+B-04,Ruby / sapphire endstones,4,Synthetic corundum,dia 3.0 x 0.6,Balance staff and carriage axis
+B-05,Miniature ball bearing MR106ZZ,1,Chrome steel,6 x 10 x 3 mm,Carriage lower pivot (low-friction alternative to a jewel)
+B-06,Miniature ball bearing MR85ZZ,2,Chrome steel,5 x 8 x 2.5 mm,"Barrel arbor, if jewels are not used"
+B-07,Ruby pallet stones (lever jewels),2,Synthetic ruby,"2.6 x 1.6 x 1.2, entry + exit",Watch-material supplier; must be lapped to angle
+B-08,Hardened steel rod stock,1,1.4034 / silver steel,dia 1.2 / 1.5 / 3.0 / 4.0 / 6.0 / 10.0 mm,Arbor stock
+B-09,Brass sheet + rod,1,CW614N,"sheet 5 mm, rod dia 30 / 120",Plate and wheel stock
+B-10,Titanium plate,1,Ti-6Al-4V,"3 mm sheet, 100 x 100",Carriage stock
+B-11,M2 x 6 countersunk screws,32,Stainless A2,DIN 965,Plate / bridge / pillar fixing
+B-12,M2 threaded pillars,9,Brass,8 / 12 / 17.5 / 24.5 mm,Carriage columns and plate spacing
+B-13,"Winding key, square 8 mm",1,Steel,Breguet key,Or print the handle and fit an 8 mm square steel socket
+B-14,Watch oil + grease,1,Moebius 9010 / 9415 / 9504,-,"9010 fast light pivots, 9415 pallet stones, 9504 barrel and going train"
+B-15,Loctite 222 + shellac,1,-,-,"Pallet stones, hairspring stud, canon pinion"
+B-16,Acrylic / sapphire crystal,1,-,dia 290 x 2,Front glazing (optional)
+B-17,Tungsten or brass poising screws,4,-,M1.4 x 2,Carriage poising counter-mass
+B-18,Timegrapher / optical tachometer,1,-,-,Required to verify the 1 Hz beat and the 1 rpm carriage -- the CAD model cannot prove this

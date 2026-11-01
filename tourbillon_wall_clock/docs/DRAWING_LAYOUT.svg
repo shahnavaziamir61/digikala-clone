@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="900" viewBox="0 0 1180 900">
+<title>Tourbillon wall clock -- front layout</title>
+<style>
+    .thin  { fill:none; stroke:#1a1a1a; stroke-width:0.5; }
+    .med   { fill:none; stroke:#1a1a1a; stroke-width:1.1; }
+    .pitch { fill:none; stroke:#0b62c4; stroke-width:0.55; stroke-dasharray:7 2.5 1.2 2.5; }
+    .tip   { fill:none; stroke:#c0392b; stroke-width:0.45; }
+    .root  { fill:none; stroke:#8a8a8a; stroke-width:0.35; stroke-dasharray:3 2; }
+    .axis  { fill:none; stroke:#111; stroke-width:0.4; stroke-dasharray:11 2.5 2 2.5; }
+    .ext   { fill:none; stroke:#666; stroke-width:0.3; }
+    .dim   { fill:none; stroke:#0b62c4; stroke-width:0.45; }
+    .fill  { fill:#0b62c4; stroke:none; }
+    .hatch { fill:none; stroke:#b0b0b0; stroke-width:0.3; }
+    .lbl   { font:9.5px 'DejaVu Sans',Arial,sans-serif; fill:#111; }
+    .ttl   { font:bold 15px 'DejaVu Sans',Arial,sans-serif; fill:#111; }
+    .sub   { font:10.5px 'DejaVu Sans',Arial,sans-serif; fill:#444; }
+    .dimlbl{ font:9px 'DejaVu Sans',Arial,sans-serif; fill:#0b62c4; }
+    .note  { font:9px 'DejaVu Sans',Arial,sans-serif; fill:#666; }
+    .hdr   { font:bold 11px 'DejaVu Sans',Arial,sans-serif; fill:#111; }
+</style>
+<rect x="0" y="0" width="1180" height="900" fill="#fff"/>
+<rect x="8.000" y="8.000" width="1164.000" height="884.000" class="med"/>
+<line x1="8.000" y1="46.000" x2="1172.000" y2="46.000" class="med"/>
+<text x="20.000" y="30.000" class="ttl" text-anchor="start">MAIN PLATE AND MOVEMENT LAYOUT  --  VIEWED FROM THE DIAL SIDE</text>
+<text x="20.000" y="42.000" class="sub" text-anchor="start">Z axis perpendicular to the sheet, +Z toward the viewer, +Y to 12 o'clock.  All dimensions in millimetres.</text>
+<text x="1160.000" y="30.000" class="hdr" text-anchor="end">SHEET 1 of 2</text>
+<text x="1160.000" y="42.000" class="note" text-anchor="end">drawn to scale, 1 : 1 in model units</text>
+<line x1="8.000" y1="838.000" x2="1172.000" y2="838.000" class="med"/>
+<circle cx="430.000" cy="470.000" r="192.400" class="med"/>
+<circle cx="430.000" cy="470.000" r="195.000" class="thin"/>
+<circle cx="430.000" cy="470.000" r="150.800" class="root"/>
+<text x="430.000" y="265.600" class="note" text-anchor="middle">case ring dia 300.00</text>
+<text x="430.000" y="688.400" class="note" text-anchor="middle">plate / dial aperture dia 296.00</text>
+<text x="237.600" y="702.400" class="note" text-anchor="start">dial ring ID 232.00</text>
+<line x1="430.000" y1="670.200" x2="430.000" y2="269.800" class="axis"/>
+<line x1="229.800" y1="470.000" x2="630.200" y2="470.000" class="axis"/>
+<circle cx="430.000" cy="379.000" r="14.560" class="tip"/>
+<circle cx="430.000" cy="379.000" r="12.740" class="pitch"/>
+<circle cx="430.000" cy="379.000" r="10.465" class="root"/>
+<line x1="425.000" y1="379.000" x2="435.000" y2="379.000" class="axis"/>
+<line x1="430.000" y1="374.000" x2="430.000" y2="384.000" class="axis"/>
+<circle cx="430.000" cy="379.000" r="98.800" class="thin"/>
+<text x="430.000" y="359.440" class="lbl" text-anchor="middle">barrel  z=14  m=1.40</text>
+<text x="430.000" y="370.440" class="note" text-anchor="middle">pitch dia 19.60  tip dia 22.40</text>
+<circle cx="430.000" cy="442.700" r="52.780" class="tip"/>
+<circle cx="430.000" cy="442.700" r="50.960" class="pitch"/>
+<circle cx="430.000" cy="442.700" r="48.685" class="root"/>
+<line x1="425.000" y1="442.700" x2="435.000" y2="442.700" class="axis"/>
+<line x1="430.000" y1="437.700" x2="430.000" y2="447.700" class="axis"/>
+<text x="430.000" y="384.920" class="lbl" text-anchor="middle">great wheel  z=56  m=1.40</text>
+<text x="430.000" y="395.920" class="note" text-anchor="middle">pitch dia 78.40  tip dia 81.20</text>
+<circle cx="430.000" cy="470.000" r="24.375" class="tip"/>
+<circle cx="430.000" cy="470.000" r="23.400" class="pitch"/>
+<circle cx="430.000" cy="470.000" r="22.181" class="root"/>
+<line x1="425.000" y1="470.000" x2="435.000" y2="470.000" class="axis"/>
+<line x1="430.000" y1="465.000" x2="430.000" y2="475.000" class="axis"/>
+<text x="430.000" y="440.625" class="lbl" text-anchor="middle">centre wheel  z=48  m=0.75</text>
+<text x="430.000" y="451.625" class="note" text-anchor="middle">pitch dia 36.00  tip dia 37.50</text>
+<circle cx="430.000" cy="503.150" r="30.030" class="tip"/>
+<circle cx="430.000" cy="503.150" r="29.250" class="pitch"/>
+<circle cx="430.000" cy="503.150" r="28.275" class="root"/>
+<line x1="425.000" y1="503.150" x2="435.000" y2="503.150" class="axis"/>
+<line x1="430.000" y1="498.150" x2="430.000" y2="508.150" class="axis"/>
+<text x="430.000" y="468.120" class="lbl" text-anchor="middle">intermediate wheel  z=75  m=0.60</text>
+<text x="430.000" y="479.120" class="note" text-anchor="middle">pitch dia 45.00  tip dia 46.20</text>
+<circle cx="430.000" cy="552.290" r="44.590" class="tip"/>
+<circle cx="430.000" cy="552.290" r="43.680" class="pitch"/>
+<circle cx="430.000" cy="552.290" r="41.892" class="thin"/>
+<circle cx="430.000" cy="552.290" r="40.300" class="thin"/>
+<circle cx="430.000" cy="552.290" r="19.500" class="root"/>
+<circle cx="430.000" cy="552.290" r="12.285" class="tip"/>
+<circle cx="430.000" cy="552.290" r="11.700" class="pitch"/>
+<line x1="424.000" y1="552.290" x2="436.000" y2="552.290" class="axis"/>
+<line x1="430.000" y1="546.290" x2="430.000" y2="558.290" class="axis"/>
+<text x="430.000" y="489.700" class="lbl" text-anchor="middle">TOURBILLON CARRIAGE  rim gear z=96 m=0.70</text>
+<text x="430.000" y="501.700" class="dimlbl" text-anchor="middle">tip dia 68.60  (target envelope 70)</text>
+<text x="430.000" y="564.290" class="note" text-anchor="middle">fixed fourth wheel z=40 m=0.45</text>
+<text x="430.000" y="576.290" class="note" text-anchor="middle">STATIONARY, concentric with the carriage axis</text>
+<circle cx="430.000" cy="566.915" r="2.860" class="thin"/>
+<line x1="430.000" y1="552.290" x2="430.000" y2="566.915" class="ext"/>
+<text x="433.900" y="566.915" class="note" text-anchor="start">escape wheel / pinion  (local y -11.25)  z=15, OD 20.0</text>
+<circle cx="430.000" cy="553.590" r="2.860" class="thin"/>
+<line x1="430.000" y1="552.290" x2="430.000" y2="553.590" class="ext"/>
+<text x="433.900" y="553.590" class="note" text-anchor="start">pallet lever  (local y -1.00)  Swiss club, 2 stones</text>
+<circle cx="430.000" cy="534.090" r="2.860" class="thin"/>
+<line x1="430.000" y1="552.290" x2="430.000" y2="534.090" class="ext"/>
+<text x="433.900" y="534.090" class="note" text-anchor="start">balance + hairspring  (local y +14.00)  dia 28.0, 1.000 Hz</text>
+<circle cx="467.440" cy="470.000" r="7.800" class="thin"/>
+<line x1="462.440" y1="470.000" x2="472.440" y2="470.000" class="axis"/>
+<line x1="467.440" y1="465.000" x2="467.440" y2="475.000" class="axis"/>
+<text x="475.440" y="466.000" class="lbl" text-anchor="start">motion works stud (28.800, 0)</text>
+<text x="475.440" y="478.000" class="note" text-anchor="start">canon pinion z=16 m=0.72 / minute wheel z=64 m=0.72</text>
+<text x="475.440" y="489.000" class="note" text-anchor="start">minute pinion z=16 m=0.90 / hour wheel z=48 m=0.90</text>
+<circle cx="430.000" cy="379.000" r="100.100" class="hatch"/>
+<circle cx="430.000" cy="552.290" r="48.100" class="hatch"/>
+<circle cx="430.000" cy="379.000" r="27.300" class="hatch"/>
+<circle cx="430.000" cy="503.150" r="7.800" class="hatch"/>
+<line x1="430.000" y1="470.000" x2="430.000" y2="470.000" class="ext"/>
+<line x1="430.000" y1="442.700" x2="430.000" y2="442.700" class="ext"/>
+<line x1="430.000" y1="470.000" x2="430.000" y2="442.700" class="dim"/>
+<polygon points="430.000,470.000 427.400,463.000 432.600,463.000" class="fill"/>
+<polygon points="430.000,442.700 427.400,449.700 432.600,449.700" class="fill"/>
+<line x1="430.000" y1="470.000" x2="372.000" y2="470.000" class="ext"/>
+<line x1="430.000" y1="442.700" x2="372.000" y2="442.700" class="ext"/>
+<line x1="372.000" y1="470.000" x2="372.000" y2="442.700" class="dim"/>
+<polygon points="372.000,470.000 369.400,463.000 374.600,463.000" class="fill"/>
+<polygon points="372.000,442.700 369.400,449.700 374.600,449.700" class="fill"/>
+<text x="377.000" y="454.850" class="dimlbl" text-anchor="middle">a = 21.000</text>
+<line x1="430.000" y1="442.700" x2="372.000" y2="442.700" class="ext"/>
+<line x1="430.000" y1="379.000" x2="372.000" y2="379.000" class="ext"/>
+<line x1="372.000" y1="442.700" x2="372.000" y2="379.000" class="dim"/>
+<polygon points="372.000,442.700 369.400,435.700 374.600,435.700" class="fill"/>
+<polygon points="372.000,379.000 369.400,386.000 374.600,386.000" class="fill"/>
+<text x="377.000" y="409.350" class="dimlbl" text-anchor="middle">a = 49.000</text>
+<line x1="430.000" y1="470.000" x2="372.000" y2="470.000" class="ext"/>
+<line x1="430.000" y1="503.150" x2="372.000" y2="503.150" class="ext"/>
+<line x1="372.000" y1="470.000" x2="372.000" y2="503.150" class="dim"/>
+<polygon points="372.000,470.000 374.600,477.000 369.400,477.000" class="fill"/>
+<polygon points="372.000,503.150 374.600,496.150 369.400,496.150" class="fill"/>
+<text x="367.000" y="485.075" class="dimlbl" text-anchor="middle">a = 25.500</text>
+<line x1="430.000" y1="503.150" x2="372.000" y2="503.150" class="ext"/>
+<line x1="430.000" y1="552.290" x2="372.000" y2="552.290" class="ext"/>
+<line x1="372.000" y1="503.150" x2="372.000" y2="552.290" class="dim"/>
+<polygon points="372.000,503.150 374.600,510.150 369.400,510.150" class="fill"/>
+<polygon points="372.000,552.290 374.600,545.290 369.400,545.290" class="fill"/>
+<text x="367.000" y="526.220" class="dimlbl" text-anchor="middle">a = 37.800</text>
+<line x1="430.000" y1="470.000" x2="430.000" y2="412.000" class="ext"/>
+<line x1="467.440" y1="470.000" x2="467.440" y2="412.000" class="ext"/>
+<line x1="430.000" y1="412.000" x2="467.440" y2="412.000" class="dim"/>
+<polygon points="430.000,412.000 437.000,409.400 437.000,414.600" class="fill"/>
+<polygon points="467.440,412.000 460.440,409.400 460.440,414.600" class="fill"/>
+<text x="448.720" y="415.500" class="dimlbl" text-anchor="middle">a = 28.800</text>
+<text x="830.000" y="90.000" class="hdr" text-anchor="start">LEGEND</text>
+<line x1="830.000" y1="107.000" x2="864.000" y2="107.000" class="tip"/>
+<text x="872.000" y="110.000" class="note" text-anchor="start">tip / outside circle   (what must not collide)</text>
+<line x1="830.000" y1="127.000" x2="864.000" y2="127.000" class="pitch"/>
+<text x="872.000" y="130.000" class="note" text-anchor="start">pitch circle   d = m z</text>
+<line x1="830.000" y1="147.000" x2="864.000" y2="147.000" class="root"/>
+<text x="872.000" y="150.000" class="note" text-anchor="start">root circle   d = m z - 2.5 m</text>
+<line x1="830.000" y1="167.000" x2="864.000" y2="167.000" class="hatch"/>
+<text x="872.000" y="170.000" class="note" text-anchor="start">plate window   (PLATE_WINDOWS, checked by C-18d)</text>
+<line x1="830.000" y1="187.000" x2="864.000" y2="187.000" class="axis"/>
+<text x="872.000" y="190.000" class="note" text-anchor="start">rotation axis / centre line</text>
+<line x1="830.000" y1="207.000" x2="864.000" y2="207.000" class="dim"/>
+<text x="872.000" y="210.000" class="note" text-anchor="start">centre distance a = m (z1 + z2) / 2   (checked by C-17)</text>
+<text x="830.000" y="260.000" class="hdr" text-anchor="start">GOING TRAIN, BARREL TO CARRIAGE</text>
+<text x="830.000" y="278.000" class="note" text-anchor="start">mesh                                   module   ratio    centre dist</text>
+<text x="830.000" y="292.000" class="note" text-anchor="start">barrel gear 14 -&gt; great wheel 56       m 1.40   i 4.000  a 49.000</text>
+<text x="830.000" y="305.000" class="note" text-anchor="start">great pinion 8 -&gt; centre wheel 48      m 0.75   i 6.000  a 21.000</text>
+<text x="830.000" y="318.000" class="note" text-anchor="start">centre pinion 10 -&gt; intermediate 75    m 0.60   i 7.500  a 25.500</text>
+<text x="830.000" y="331.000" class="note" text-anchor="start">intermediate 12 -&gt; carriage rim 96     m 0.70   i 8.000  a 37.800</text>
+<text x="830.000" y="344.000" class="note" text-anchor="start">fixed fourth 40 -&gt; escape pinion 10    m 0.45   i 0.250  a 11.250</text>
+<text x="830.000" y="363.000" class="dimlbl" text-anchor="start">barrel -&gt; centre wheel  24.000 : 1        centre -&gt; carriage  60.000 : 1</text>
+<text x="830.000" y="377.000" class="dimlbl" text-anchor="start">carriage 1.000 rpm  &lt;=&gt;  balance 1.000 Hz   (derived, not assumed)</text>
+<text x="20.000" y="854.000" class="sub" text-anchor="start">PROJECT   tourbillon wall clock, 300 mm dial, visible one-minute flying tourbillon</text>
+<text x="20.000" y="870.000" class="note" text-anchor="start">PLATE DIA   296.00</text>
+<text x="320.000" y="870.000" class="note" text-anchor="start">CLOCK DIA   300.00</text>
+<text x="620.000" y="870.000" class="note" text-anchor="start">CARRIAGE TIP   68.60</text>
+<text x="20.000" y="883.000" class="note" text-anchor="start">PRESSURE ANGLE   20 deg</text>
+<text x="320.000" y="883.000" class="note" text-anchor="start">BEAT   1.000 Hz / 7200 vph</text>
+<text x="620.000" y="883.000" class="note" text-anchor="start">RUN TIME   3.23 d computed (L-03)</text>
+<text x="20.000" y="896.000" class="note" text-anchor="start">SOURCE   tools/design.py -&gt; parameters_auto.scad</text>
+<text x="320.000" y="896.000" class="note" text-anchor="start">GENERATED BY   tools/gen_drawings.py</text>
+<text x="620.000" y="896.000" class="note" text-anchor="start">STATUS   geometry verified; NOT a functional proof</text>
+</svg>
