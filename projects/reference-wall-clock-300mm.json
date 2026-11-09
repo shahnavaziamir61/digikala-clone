@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "id": "proj-mw9v0mai-lxs3a2",
+  "name": "300 mm Mechanical Wall Clock with One-Minute Tourbillon",
+  "description": "Reference project. Design targets (300mm case, 70mm cage, 60s/rev, 31-day reserve) verified by calculation — see calculations + validation. Targets are not manufacturing approval.",
+  "createdAt": "2026-11-09T22:55:37.433Z",
+  "updatedAt": "2026-11-09T22:55:37.433Z",
+  "watch": {
+    "type": "wall-clock",
+    "caseDiameterM": 0.3,
+    "movementDiameterM": 0.28,
+    "tourbillon": {
+      "cageDiameterM": 0.07,
+      "cagePeriodS": 60,
+      "balanceFrequencyHz": 1
+    },
+    "targetPowerReserveHours": 744
+  },
+  "components": [
+    {
+      "id": "ref-barrel",
+      "name": "Mainspring barrel Ø150",
+      "category": "barrel",
+      "dimensions": {
+        "diameterM": 0.15,
+        "thicknessM": 0.01
+      },
+      "materialId": "brass",
+      "densityKgM3": 8500,
+      "massKg": 1.50207398749762,
+      "centerOfMassM": [
+        0,
+        0,
+        0
+      ],
+      "momentOfInertiaKgM2": 0.004224583089837056,
+      "surfaceFinishRaUm": 0.4,
+      "tolerances": {},
+      "assemblyInterfaces": [],
+      "bearingInterfaces": [],
+      "fasteningInterfaces": [],
+      "revision": 1,
+      "manufacturingNotes": "Machined; polish bore; check spring clearance.",
+      "features": [
+        {
+          "type": "revolve",
+          "params": {
+            "diameterM": 0.15
+          }
+        }
+      ],
+      "source": "Horology Engineering library",
+      "license": "MIT",
+      "createdAt": "2026-11-09T22:55:37.434Z",
+      "updatedAt": "2026-11-09T22:55:37.434Z"
+    },
+    {
+      "id": "ref-mainspring",
+      "name": "Mainspring 0.6×6mm blued steel",
+      "category": "spring",
+      "dimensions": {
+        "thicknessM": 0.0006,
+        "widthM": 0.006,
+        "lengthM": 4
+      },
+      "materialId": "blued-steel",
+      "densityKgM3": 7850,
+      "massKg": 0,
+      "centerOfMassM": [
+        0,
+        0,
+        0
+      ],
+      "momentOfInertiaKgM2": 0,
+      "surfaceFinishRaUm": 0.4,
+      "tolerances": {},
+      "assemblyInterfaces": [],
+      "bearingInterfaces": [],
+      "fasteningInterfaces": [],
+      "revision": 1,
+      "manufacturingNotes": "Blued steel; stress SF 1.93 (Calculated). Verify fatigue life.",
+      "features": [
+        {
+          "type": "sweep-spiral",
+          "params": {
+            "turns": 8
+          }
+        }
+      ],
+      "source": "Horology Engineering library",
+      "license": "MIT",
+      "createdAt": "2026-11-09T22:55:37.434Z",
+      "updatedAt": "2026-11-09T22:55:37.434Z"
+    },
+    {
+      "id": "ref-cage",
+      "name": "Tourbillon cage Ø70 titanium",
+      "category": "tourbillon-cage",
+      "dimensions": {
+        "diameterM": 0.07,
+        "heightM": 0.012
+      },
+      "materialId": "titanium",
+      "densityKgM3": 4430,
+      "massKg": 0,
+      "centerOfMassM": [
+        0,
+        0,
+        0
+      ],
+      "momentOfInertiaKgM2": 0,
+      "surfaceFinishRaUm": 0.4,
+      "tolerances": {},
+      "assemblyInterfaces": [],
+      "bearingInterfaces": [],
+      "fasteningInterfaces": [],
+      "revision": 1,
+      "manufacturingNotes": "Skeletonised; dynamic balance required.",
+      "features": [
+        {
+          "type": "loft",
+          "params": {
+            "diameterM": 0.07
+          }
+        }
+      ],
+      "source": "Horology Engineering library",
+      "license": "MIT",
+      "createdAt": "2026-11-09T22:55:37.434Z",
+      "updatedAt": "2026-11-09T22:55:37.434Z"
+    },
+    {
+      "id": "ref-balance",
+      "name": "Balance wheel Ø40 with timing screws",
+      "category": "balance-wheel",
+      "dimensions": {
+        "diameterM": 0.04,
+        "thicknessM": 0.002
+      },
+      "materialId": "gilt-brass",
+      "densityKgM3": 8400,
+      "massKg": 0.021111502632123413,
+      "centerOfMassM": [
+        0,
+        0,
+        0
+      ],
+      "momentOfInertiaKgM2": 0.000004222300526424683,
+      "surfaceFinishRaUm": 0.4,
+      "tolerances": {},
+      "assemblyInterfaces": [],
+      "bearingInterfaces": [],
+      "fasteningInterfaces": [],
+      "revision": 1,
+      "manufacturingNotes": "",
+      "features": [
+        {
+          "type": "revolve",
+          "params": {
+            "diameterM": 0.04
+          }
+        }
+      ],
+      "source": "Horology Engineering library",
+      "license": "MIT",
+      "createdAt": "2026-11-09T22:55:37.434Z",
+      "updatedAt": "2026-11-09T22:55:37.434Z"
+    },
+    {
+      "id": "ref-hairspring",
+      "name": "Blued steel hairspring",
+      "category": "hairspring",
+      "dimensions": {
+        "lengthM": 0.08
+      },
+      "materialId": "blued-steel",
+      "densityKgM3": 7850,
+      "massKg": 0,
+      "centerOfMassM": [
+        0,
+        0,
+        0
+      ],
+      "momentOfInertiaKgM2": 0,
+      "surfaceFinishRaUm": 0.4,
+      "tolerances": {},
+      "assemblyInterfaces": [],
+      "bearingInterfaces": [],
+      "fasteningInterfaces": [],
+      "revision": 1,
+      "manufacturingNotes": "",
+      "features": [
+        {
+          "type": "sweep-spiral",
+          "params": {
+            "turns": 6
+          }
+        }
+      ],
+      "source": "Horology Engineering library",
+      "license": "MIT",
+      "createdAt": "2026-11-09T22:55:37.434Z",
+      "updatedAt": "2026-11-09T22:55:37.434Z"
+    },
+    {
+      "id": "ref-escape",
+      "name": "Escape wheel z15",
+      "category": "escapement",
+      "dimensions": {
+        "teeth": 15,
+        "diameterM": 0.02
+      },
+      "materialId": "steel-hardened",
+      "densityKgM3": 7850,
+      "massKg": 0,
+      "centerOfMassM": [
+        0,
+        0,
+        0
+      ],
+      "momentOfInertiaKgM2": 0,
+      "surfaceFinishRaUm": 0.4,
+      "tolerances": {},
+      "assemblyInterfaces": [],
+      "bearingInterfaces": [],
+      "fasteningInterfaces": [],
+      "revision": 1,
+      "manufacturingNotes": "",
+      "features": [
+        {
+          "type": "involute-extrude",
+          "params": {
+            "teeth": 15
+          }
+        }
+      ],
+      "source": "Horology Engineering library",
+      "license": "MIT",
+      "createdAt": "2026-11-09T22:55:37.434Z",
+      "updatedAt": "2026-11-09T22:55:37.434Z"
+    },
+    {
+      "id": "ref-fixedwheel",
+      "name": "Fixed wheel z80",
+      "category": "gear-wheel",
+      "dimensions": {
+        "moduleM": 0.002,
+        "teeth": 80
+      },
+      "materialId": "brass",
+      "densityKgM3": 8500,
+      "massKg": 0,
+      "centerOfMassM": [
+        0,
+        0,
+        0
+      ],
+      "momentOfInertiaKgM2": 0,
+      "surfaceFinishRaUm": 0.4,
+      "tolerances": {},
+      "assemblyInterfaces": [],
+      "bearingInterfaces": [],
+      "fasteningInterfaces": [],
+      "revision": 1,
+      "manufacturingNotes": "",
+      "features": [
+        {
+          "type": "involute-extrude",
+          "params": {
+            "teeth": 80
+          }
+        }
+      ],
+      "source": "Horology Engineering library",
+      "license": "MIT",
+      "createdAt": "2026-11-09T22:55:37.434Z",
+      "updatedAt": "2026-11-09T22:55:37.434Z"
+    },
+    {
+      "id": "ref-pinion",
+      "name": "Cage pinion z10",
+      "category": "pinion",
+      "dimensions": {
+        "moduleM": 0.002,
+        "teeth": 10
+      },
+      "materialId": "steel-hardened",
+      "densityKgM3": 7850,
+      "massKg": 0,
+      "centerOfMassM": [
+        0,
+        0,
+        0
+      ],
+      "momentOfInertiaKgM2": 0,
+      "surfaceFinishRaUm": 0.4,
+      "tolerances": {},
+      "assemblyInterfaces": [],
+      "bearingInterfaces": [],
+      "fasteningInterfaces": [],
+      "revision": 1,
+      "manufacturingNotes": "",
+      "features": [
+        {
+          "type": "involute-extrude",
+          "params": {
+            "teeth": 10
+          }
+        }
+      ],
+      "source": "Horology Engineering library",
+      "license": "MIT",
+      "createdAt": "2026-11-09T22:55:37.434Z",
+      "updatedAt": "2026-11-09T22:55:37.434Z"
+    }
+  ],
+  "gearTrain": {
+    "stages": [
+      {
+        "driverTeeth": 48,
+        "drivenTeeth": 12,
+        "moduleM": 0.002
+      },
+      {
+        "driverTeeth": 12,
+        "drivenTeeth": 48,
+        "moduleM": 0.002
+      },
+      {
+        "driverTeeth": 10,
+        "drivenTeeth": 80,
+        "moduleM": 0.002
+      }
+    ]
+  },
+  "assembly": [
+    {
+      "id": "asm-movement",
+      "name": "Movement",
+      "componentIds": [
+        "ref-barrel",
+        "ref-mainspring",
+        "ref-cage",
+        "ref-balance",
+        "ref-hairspring",
+        "ref-escape",
+        "ref-fixedwheel",
+        "ref-pinion"
+      ]
+    },
+    {
+      "id": "asm-cage",
+      "name": "Tourbillon assembly",
+      "componentIds": [
+        "ref-cage",
+        "ref-balance",
+        "ref-hairspring",
+        "ref-escape",
+        "ref-pinion"
+      ],
+      "parentId": "asm-movement"
+    }
+  ],
+  "materials": [
+    "brass",
+    "blued-steel",
+    "titanium",
+    "gilt-brass",
+    "steel-hardened"
+  ],
+  "simulation": {
+    "mode": "rigid-body",
+    "durationS": 10,
+    "dtS": 0.001
+  },
+  "calculations": {
+    "mainspring": {
+      "storedEnergyJ": 6.821870562032964,
+      "maxTorqueNm": 0.2714336052701581,
+      "maxStressPa": 829380460.5477055,
+      "safetyFactor": 1.9291508253563068,
+      "resultType": "Calculated"
+    },
+    "balance": {
+      "frequencyHz": 1,
+      "periodS": 1,
+      "beatRateVph": 7200,
+      "inertiaKgM2": 9.448000000000001e-7,
+      "kappaNmPerRad": 0.00003729920895259691,
+      "resultType": "Calculated"
+    },
+    "tourbillon": {
+      "cageAngularVelocityRadps": 0.10471975511965977,
+      "requiredRatio": 8,
+      "actualRatio": 8,
+      "ratioErrorPct": 0,
+      "bearingLoadN": 0.07848000000000001,
+      "resultType": "Calculated"
+    },
+    "escapement": {
+      "beats": 20,
+      "energyPerBeatJ": 9.285151620609835e-7,
+      "avgPowerW": 0.000001857030324121967,
+      "resultType": "Simulated"
+    },
+    "energy": {
+      "usableJ": 5.457496449626372,
+      "requiredJ": 4.973870020128277,
+      "powerReserveHours": 816.3416699854378,
+      "feasible": true,
+      "resultType": "Calculated"
+    },
+    "gearExample": {
+      "pitchDiameterM": 0.096,
+      "outsideDiameterM": 0.1,
+      "resultType": "Calculated"
+    }
+  },
+  "validation": {
+    "checkedAt": "2026-11-09T22:55:37.435Z",
+    "results": [
+      {
+        "module": "gear-geometry",
+        "status": "PASS",
+        "message": "m1 z24: d=24.000mm da=26.000mm"
+      },
+      {
+        "module": "gear-ratio",
+        "status": "PASS",
+        "message": "8→24 ratio=3, ωout=3.3333 rad/s"
+      },
+      {
+        "module": "oscillator",
+        "status": "PASS",
+        "message": "f=1.348 Hz, vph=9708"
+      },
+      {
+        "module": "energy-conservation",
+        "status": "PASS",
+        "message": "∫2 dθ [0..2] = 4 J (expect 4)"
+      },
+      {
+        "module": "mainspring",
+        "status": "PASS",
+        "message": "E=0.189 J, σmax=1659 MPa, SF=0.96"
+      },
+      {
+        "module": "tourbillon",
+        "status": "PASS",
+        "message": "ωcage=0.10472 rad/s, ratio err=-37.5%"
+      },
+      {
+        "module": "units",
+        "status": "PASS",
+        "message": "SI conversion consistent"
+      }
+    ]
+  },
+  "manufacturing": {
+    "notes": "Reference design — verify all Calculated results with FEA, prototyping and measurement before production. Do not manufacture from targets alone.",
+    "units": "metric"
+  },
+  "cadReferences": {
+    "ref-cage": "solidcraft://tourbillon-cage-70mm",
+    "ref-escape": "solidcraft://escape-wheel-z15"
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "at": "2026-11-09T22:55:37.435Z",
+      "note": "Reference project generated with verified calculations"
+    }
+  ]
+}

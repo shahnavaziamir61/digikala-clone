@@ -1,0 +1,55 @@
+:root {
+  --bg: #0b1220; --panel: #111a2e; --panel2: #16223a; --line: #24344f;
+  --text: #e2e8f0; --muted: #94a3b8; --accent: #4cc2ff; --accent2: #f59e0b;
+  --danger: #ef4444; --ok: #22c55e;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter, Vazirmatn, system-ui, sans-serif; }
+.app { display: flex; min-height: 100vh; }
+.sidebar { width: 260px; background: var(--panel); border-inline-end: 1px solid var(--line); padding: 16px; display: flex; flex-direction: column; gap: 12px; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
+.brand { display: flex; gap: 10px; align-items: center; }
+.brand-mark { font-size: 28px; color: var(--accent); }
+.brand-title { font-weight: 700; font-size: 15px; }
+.brand-sub { font-size: 11px; color: var(--muted); }
+nav { display: flex; flex-direction: column; gap: 2px; }
+.nav { text-align: start; background: none; border: none; color: var(--text); padding: 8px 10px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+.nav:hover { background: var(--panel2); }
+.nav.active { background: var(--panel2); color: var(--accent); border-inline-start: 3px solid var(--accent); }
+.sidebar-foot { margin-top: auto; }
+.main { flex: 1; padding: 20px; max-width: 1400px; }
+.page h2 { margin: 0 0 12px; font-size: 20px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 16px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+.card h3 { margin: 0 0 12px; font-size: 14px; color: var(--accent); }
+.field { display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px; font-size: 12px; color: var(--muted); }
+.field input, .field select, .search { background: var(--bg); border: 1px solid var(--line); color: var(--text); border-radius: 8px; padding: 8px 10px; font-size: 13px; }
+.btn { background: var(--accent); color: #06121f; border: none; border-radius: 8px; padding: 8px 14px; font-weight: 600; cursor: pointer; font-size: 13px; }
+.btn:hover { filter: brightness(1.1); }
+.btn.ghost { background: var(--panel2); color: var(--text); border: 1px solid var(--line); }
+.btn.sm { padding: 5px 10px; font-size: 12px; }
+.btn.danger { background: var(--danger); color: #fff; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.row { display: flex; gap: 8px; align-items: center; }
+.row.wrap { flex-wrap: wrap; }
+.kv { display: flex; justify-content: space-between; gap: 12px; padding: 5px 0; border-bottom: 1px dashed var(--line); font-size: 13px; }
+.kv span { color: var(--muted); }
+.kv strong { font-variant-numeric: tabular-nums; }
+.warnings { margin-top: 10px; }
+.warning { background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.4); color: #fbbf24; border-radius: 8px; padding: 8px 10px; font-size: 12px; margin-bottom: 6px; }
+.error { background: rgba(239,68,68,0.12); border: 1px solid rgba(239,68,68,0.4); color: #fca5a5; border-radius: 8px; padding: 8px 10px; font-size: 12px; margin-top: 8px; }
+.badge { display: inline-block; border: 1px solid; border-radius: 999px; padding: 2px 10px; font-size: 11px; margin-bottom: 8px; }
+.hint { color: var(--muted); font-size: 12px; line-height: 1.6; }
+.empty { color: var(--muted); text-align: center; padding: 16px; }
+.chart { overflow-x: auto; }
+.cad-layout { display: grid; grid-template-columns: 300px 1fr; gap: 16px; }
+.cad-tree { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+.tree { display: block; width: 100%; text-align: start; background: none; border: none; color: var(--text); padding: 6px 8px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+.tree.active { background: var(--panel2); color: var(--accent); }
+.viewport { height: 520px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #0b1220; }
+.cad-props { margin-top: 12px; }
+@media (max-width: 900px) {
+  .app { flex-direction: column; }
+  .sidebar { width: 100%; height: auto; position: static; }
+  .grid2, .grid3, .cad-layout { grid-template-columns: 1fr; }
+}
